@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>First Weekend Project</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="jquery.3.3.1.js"></script>
+    <link rel="stylesheet" type="text/css" media="screen" href="style.css" />
+    <script src="client.js"></script>
+</head>
+<body>
+    <h1>Salary Calculator</h1>
+    <div class="inputs">
+       <h2>Add Employee</h2> 
+        <input id="firstName" type="text" placeholder="first name"/>
+        <input id="lastName" type="text" placeholder="last name"/>
+        <input id="idNumber" type="text" placeholder="id number"/>
+        <input id="jobTitle" type="text" placeholder="job title"/>
+        <input id="annualSalary" type="text" placeholder="annual salary"/>
+        <button id="addEmployee">Submit</button>
+    </div>
+
+    <div>
+        <h2>Employee List</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>First Name</th>
+                        <th>Last Name</th>
+                        <th>ID Number</th>
+                        <th>Job Title</th>
+                        <th>Annual Salary</th>
+                    </tr>
+                </thead>
+                <tbody id="employeeList">
+                    
+                        
+                
+                </tbody>
+            </table>
+    </div>
+
+    <div>
+        <h3 id="totalMonthly">Total Monthly Cost</h3>
+    </div>
+
+</body>
+</html>
